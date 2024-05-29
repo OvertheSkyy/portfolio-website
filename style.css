@@ -1,3 +1,18 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+section {
+  padding: 50px 0;
+}
+
+.brand-logo img {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+}
+
 #home {
   height: 100vh;
   background-color: #393346;
@@ -10,8 +25,8 @@
 
 .home-section {
   display: flex;
-  justify-content: space-between; /* Ensure equal space between columns */
-  align-items: center; /* Center vertically */
+  justify-content: space-between;
+  align-items: center;
   height: 30vh;
 }
 
@@ -44,10 +59,9 @@
   animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
 }
 
-#skills {
-  background-color: #eeeeee;
-  height: 70vh;
-}
+/* #skills {
+    height: 70vh;
+  } */
 
 #projects {
   background-color: #393346;
