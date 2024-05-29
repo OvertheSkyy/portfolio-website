@@ -1,2 +1,3 @@
 # portfolio-website
-My personal portfolio website.
+- my personal portfolio website
+- for deployment
