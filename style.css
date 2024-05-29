@@ -1,0 +1,72 @@
+#home {
+  height: 100vh;
+  background-color: #393346;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -1;
+}
+
+.home-section {
+  display: flex;
+  justify-content: space-between; /* Ensure equal space between columns */
+  align-items: center; /* Center vertically */
+  height: 30vh;
+}
+
+.col {
+  width: 50%;
+}
+
+.text-content {
+  text-align: center;
+}
+
+.image-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-content img {
+  max-width: 100%;
+  height: auto;
+  width: 400px;
+}
+
+.typewrite {
+  color: #eeeeee;
+  font-family: monospace;
+  overflow: hidden;
+  white-space: nowrap;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+#skills {
+  background-color: #eeeeee;
+  height: 70vh;
+}
+
+#projects {
+  background-color: #393346;
+  height: 80vh;
+}
+
+.card-content,
+.card-reveal {
+  height: 150px;
+}
+
+.card {
+  height: auto;
+}
+
+.card-image {
+  height: 200px;
+}
+
+.custom-image-height {
+  height: 200px; /* Adjust the height as needed */
+}
