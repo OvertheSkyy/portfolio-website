@@ -3,9 +3,6 @@ body {
   margin: 0;
   padding: 0;
 }
-section {
-  padding: 50px 0;
-}
 
 .brand-logo img {
   margin-top: 10px;
@@ -59,9 +56,10 @@ section {
   animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
 }
 
-/* #skills {
-    height: 70vh;
-  } */
+#skills {
+  height: 80vh;
+  padding: 50px 0;
+}
 
 #projects {
   background-color: #393346;
