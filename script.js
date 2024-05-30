@@ -14,6 +14,15 @@ $('.carousel.carousel-slider').carousel({
     indicators: true
 });
 
+document.getElementById('contact-btn').addEventListener('click', function () {
+    var socialLinks = document.getElementById('social-links');
+    if (socialLinks.style.display === 'none') {
+        socialLinks.style.display = 'flex';
+    } else {
+        socialLinks.style.display = 'none';
+    }
+});
+
 var TxtType = function (el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;

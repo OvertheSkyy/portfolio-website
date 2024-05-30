@@ -61,7 +61,7 @@ h3 {
 }
 
 #services {
-  height: 80vh;
+  height: 100vh;
   padding: 50px 0;
   background-color: #393346;
 }
@@ -84,6 +84,16 @@ h3 {
 .carousel-image {
   max-width: 400px;
   height: 400px;
+}
+
+#social-links {
+  display: flex;
+  justify-content: center; /* Center the items horizontally */
+  margin-top: 10px; /* Add some spacing */
+}
+
+#social-links a {
+  margin: 0 5px; /* Add spacing between the links */
 }
 
 #projects {
