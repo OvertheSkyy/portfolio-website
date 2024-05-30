@@ -21,9 +21,6 @@ h3 {
   background-repeat: no-repeat;
   background-attachment: fixed;
   z-index: -1;
-}
-
-.home-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -59,19 +56,19 @@ h3 {
 }
 
 #skills {
-  height: 100vh;
+  height: 80vh;
   padding: 50px 0;
 }
 
 #services {
-  height: 100vh;
+  height: 80vh;
   padding: 50px 0;
   background-color: #393346;
 }
 
 .carousel.carousel-slider {
   width: 100%;
-  max-width: 60%; /* Limit maximum width to make it smaller than the section */
+  max-width: 50%; /* Limit maximum width to make it smaller than the section */
   margin: 0 auto; /* Center the carousel horizontally within its container */
 }
 
@@ -81,22 +78,24 @@ h3 {
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-top: -100px;
 }
 
 .carousel-image {
   max-width: 400px;
   height: 400px;
-  margin-bottom: -50px;
 }
 
 .carousel h4 {
   color: #ffffff;
   font-size: xx-large;
+  margin-top: -50px; /* Remove negative margin-top */
 }
 
 #projects {
   background-color: #eeeeee;
-  height: 100vh;
+  padding: 30px 0;
+  height: 80vh;
 }
 
 .card-content,
