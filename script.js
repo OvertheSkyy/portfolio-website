@@ -10,7 +10,8 @@ $(document).ready(function () {
 
 // Carousel full width display
 $('.carousel.carousel-slider').carousel({
-    fullWidth: true
+    fullWidth: true,
+    indicators: true
 });
 
 var TxtType = function (el, toRotate, period) {
