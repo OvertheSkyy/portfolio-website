@@ -110,3 +110,40 @@ h3 {
 .custom-image-height {
   height: 200px; /* Adjust the height as needed */
 }
+
+/* Responsive Media Queries */
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+  #skills,
+  #services,
+  #projects {
+    height: auto; /* Adjusted height for responsiveness */
+    padding: 30px 0; /* Adjusted padding for responsiveness */
+  }
+
+  .carousel-item {
+    margin-top: -50px; /* Adjusted margin for smaller screens */
+  }
+
+  .card-content,
+  .card-reveal,
+  .card-image,
+  .custom-image-height {
+    height: auto; /* Adjusted height for responsiveness */
+  }
+}
+
+@media (max-width: 480px) {
+  h3 {
+    margin-top: 30px; /* Adjusted margin for smaller screens */
+  }
+
+  .brand-logo img {
+    width: 30px; /* Adjusted width for smaller screens */
+    height: 30px; /* Adjusted height for smaller screens */
+  }
+
+  .typewrite {
+    font-size: 0.8rem; /* Further adjusted font size for smaller screens */
+  }
+}
