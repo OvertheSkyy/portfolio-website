@@ -8,6 +8,11 @@ $(document).ready(function () {
     $('.sidenav').sidenav();
 })
 
+// Services carousel images
+$(document).ready(function () {
+    $('.carousel').carousel();
+});
+
 var TxtType = function (el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;

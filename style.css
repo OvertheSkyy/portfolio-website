@@ -48,7 +48,7 @@ body {
 }
 
 .typewrite {
-  color: #eeeeee;
+  color: #ffffff;
   font-family: monospace;
   overflow: hidden;
   white-space: nowrap;
@@ -61,12 +61,30 @@ body {
   padding: 50px 0;
 }
 
-/* #services {
+#services {
+  height: 80vh;
   background-color: #393346;
-} */
+}
+
+.carousel {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  justify-content: center;
+}
+.carousel-item {
+  flex: 0 0 auto;
+}
+
+.carousel-item img {
+  width: 200px;
+  height: 200px;
+  display: block;
+  object-fit: contain;
+}
 
 #projects {
-  background-color: #393346;
+  background-color: #eeeeee;
   height: 80vh;
 }
 
