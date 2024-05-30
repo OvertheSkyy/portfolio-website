@@ -86,12 +86,6 @@ h3 {
   height: 400px;
 }
 
-.carousel h4 {
-  color: #ffffff;
-  font-size: xx-large;
-  margin-top: -50px; /* Remove negative margin-top */
-}
-
 #projects {
   background-color: #eeeeee;
   padding: 30px 0;
