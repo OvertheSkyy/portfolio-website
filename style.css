@@ -57,35 +57,48 @@ body {
 }
 
 #skills {
-  height: 80vh;
+  height: 100vh;
   padding: 50px 0;
 }
 
 #services {
-  height: 80vh;
+  height: 100vh;
+  padding: 50px 0;
   background-color: #393346;
-}
-
-.carousel {
   display: flex;
-  overflow: hidden;
-  width: 100%;
-  justify-content: center;
-}
-.carousel-item {
-  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center; /* Center content horizontally */
 }
 
-.carousel-item img {
-  width: 200px;
-  height: 200px;
-  display: block;
-  object-fit: contain;
+.carousel.carousel-slider {
+  width: 100%;
+  max-width: 60%; /* Limit maximum width to make it smaller than the section */
+  margin: 0 auto; /* Center the carousel horizontally within its container */
+  overflow: hidden; /* Hide overflow to prevent horizontal scroll */
+  height: 70vh;
+}
+
+.carousel-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.carousel-image {
+  max-width: 400px;
+  height: 400px;
+}
+
+.carousel h4 {
+  color: #ffffff;
+  font-size: xx-large;
 }
 
 #projects {
   background-color: #eeeeee;
-  height: 80vh;
+  height: 100vh;
 }
 
 .card-content,

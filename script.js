@@ -8,9 +8,9 @@ $(document).ready(function () {
     $('.sidenav').sidenav();
 })
 
-// Services carousel images
-$(document).ready(function () {
-    $('.carousel').carousel();
+// Carousel full width display
+$('.carousel.carousel-slider').carousel({
+    fullWidth: true
 });
 
 var TxtType = function (el, toRotate, period) {
